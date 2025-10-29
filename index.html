@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="xl:flex align-middle">
-            <h1 class="text-center md:text-4xl xl:flex" ><strong>Instadog</strong></h1>
-            <div>
-                <input type="text">
-                <ul class="flex justify-evenly align-middle m-5 border-b border-solid border-gray-400 p-2 md:gap-2 xl:w-8">
+    <header>
+            <div class= "container m-2.5 lg:flex align-middle justify-around"> 
+                <h1 class= "md:text-4xl lg:flex"><strong>Instadog</strong></h1>
+                <div class="hidden md:block">
+                    <form action="" class="bg-gray-300 border-1 border-gray-500 rounded-lg flex p-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                        <input type="text" placeholder="Rechercher">
+                    </form>
+                </div>  
+                <ul class="flex justify-evenly align-middle m-5 border-b border-solid border-gray-400 p-2 md:gap-2 lg:w-4 lg:gap-6">
                     <li><svg xmlns="http://www.w3.org/2000/svg" class="md:h-12"  height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></li>
                     <li><svg xmlns="http://www.w3.org/2000/svg"class="md:h-12" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-icon lucide-message-square"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></svg></li>
                     <li><svg xmlns="http://www.w3.org/2000/svg" class="md:h-12" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg></li>
@@ -24,7 +29,7 @@
     </header>
     <main>
         <section class="m-7">
-            <div class="flex justify-center gap-5 md:gap-10">
+            <div class="flex justify-center gap-5 md:gap-10 lg:flex justify-normal ">
                 <img src="assets/img/profil.jpg"alt=""class="rounded-full w-13 h-13 bg-gradient-to-tr from-pink-500 to-orange-400 p-[2px] md:h-20 md:w-20">
                 <img src="assets/img/dog-1.jpg" alt=""class="rounded-full w-13 h-13 bg-gradient-to-tr from-pink-500 to-orange-400 p-[2px] md:h-20 md:w-20">
                 <img src="assets/img/dog-2.jpg" alt=""class="rounded-full w-13 h-13 bg-gradient-to-tr from-pink-500 to-orange-400 p-[2px] md:h-20 md:w-20">
@@ -34,7 +39,7 @@
         </section>
         <section>
             <div>
-                <div class="flex-col align-middle border border-solid border-gray-500 m-2 rounded-lg">
+                <div class="flex-col align-middle border border-solid border-gray-500 m-2 rounded-lg lg:w-1/2">
                     <div class="flex align-middle m-3" >
                         <img src="assets/img/dog-1.jpg" alt=""class="rounded-full w-9 h-9" > 
                         <div>
@@ -55,7 +60,7 @@
                         <p class="text-gray-400">il y a 2 heures</p>
                     </div>
                     </div>
-                     <div class="flex-col align-middle border border-solid border-gray-500 m-2 rounded-lg">
+                     <div class="flex-col align-middle border border-solid border-gray-500 m-2 rounded-lg lg:w-1/2">
                     <div class="flex align-middle m-3" >
                         <img src="assets/img/dog-2.jpg" alt=""class="rounded-full w-9 h-9" > 
                         <div>
