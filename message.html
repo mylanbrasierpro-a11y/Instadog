@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>message</title>
+    
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+
+
+
+<body>
+    <header class=": border-b  border-gray-300  ">
+    <div class="md:flex container mx-auto px-4 justify-between md:mt-5 items-center 2xl:ml-[14%] lg:mr-[5%]">
+        <h1 class="text-center font-sans font-bold mb-2  text-black text-3xl md:text-3xl " >Instadog</h1>
+        <div class="hidden xl:block"> 
+            <div class="relative w-[500px] py-2 px-4 rounded-2xl  bg-gray-100 border border-gray-300 flex gap-1">    
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                <input type="search" name="q"  placeholder="Recherche"/>
+            </div>
+        </div>
+        <ul class="flex justify-evenly  items-center mt-4.5 md:border-0   border-gray-500 pb-3.5 md:gap-10">
+            <li><a href="home" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></a></li>
+            <li><a href="" class="relative inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-icon lucide-message-square"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></svg></a></li>
+            <li><a href="+" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg></a></li>
+            <li><a href="recherche" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass-icon lucide-compass"><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/><circle cx="12" cy="12" r="10"/></svg></a></li>
+            <li><a href="notif" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell-icon lucide-bell"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg></a></li>
+            <li><a href="profil"><img src="assets/img/profil.jpg" class=" border w-10 h-10 rounded-full  objet-cover  border-gray-200" alt=""></a></li>
+        </ul>
+    </div>
+    </header>
+
+    <main class= "mt-2">
+        <div class="cont m-10">
+            <!-- Card msg -->
+            <section>
+                <div class= "border-gray-300 border-1  p-3 rounded-t rounded-r">
+                    <div class="content">
+                        <h2 class="font-sans font-bold">Messages</h2>
+                    </div>
+                </div>
+                
+                <div class="flex  justify-between items-center border-gray-300 border p-3 gap-5">
+                    <div class="noonline noonline flex items-center gap-3">
+                        <div class="flex items-center gap-3 ">
+                            <div class="w-13 h-13 rounded-full p-[3px]">
+                                <a href=""><img src="assets/img/dog-1.jpg"class="block w-full h-full object-cover rounded-full" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="font-semibold">rex</p>
+                            <p class="text-gray-500 text-sm">en ligne</p>
+                        </div>
+                        
+                    </div>
+                    <div class="rounded-full bg-green-700 w-2 h-2"></div>
+                </div>
+
+                <div class="flex  justify-between items-center border-gray-300 border p-3 gap-5">
+                    <div class="noonline noonline flex items-center gap-3">
+                        <div class="flex items-center gap-3 ">
+                            <div class="w-13 h-13 rounded-full p-[3px]">
+                                <a href=""><img src="assets/img/dog-2.jpg"class="block w-full h-full object-cover rounded-full" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="font-semibold">doug</p>
+                            <p class="text-gray-500 text-sm">il y a 5 min</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="flex  justify-between items-center border-gray-300 border p-3 gap-5">
+                    <div class="noonline noonline flex items-center gap-3">
+                        <div class="flex items-center gap-3 ">
+                            <div class="w-13 h-13 rounded-full p-[3px]">
+                                <a href=""><img src="assets/img/dog-3.jpg"class="block w-full h-full object-cover rounded-full" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="font-semibold">luna</p>
+                            <p class="text-gray-500 text-sm">Tapez pour ouvrir</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="flex  justify-between items-center border-gray-300 border p-3 gap-0">
+                    <div class="noonline noonline flex items-center gap-2">
+                        <div class="flex items-center gap-3 ">
+                            <div class="w-10 h-10 rounded-full p-[3px]">
+                                <a href=""><img src="assets/img/dog-1.jpg"class="block w-full h-full object-cover rounded-full" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="font-semibold">rex</p>
+                            <p class="text-gray-500 text-sm">en ligne maintenant</p>
+                        </div>
+                        
+                    </div>
+                    <div class="rounded-full  w-2 h-2"></div>
+                </div>
+
+                <div class="flex-row  border-gray-300 border p-3 gap-0 bg-gray-100">
+                        
+                    <div class="flex flex-col  gap-3 ">
+                            
+                        <div class=" border-gray flex gap-1">
+                            <div class="w-8 h-8 rounded-full p-[3px]">
+                                <a href=""><img src="assets/img/dog-1.jpg"class="block w-full h-full object-cover rounded-full" alt=""></a>
+                            </div>
+                            <div class="text  border-gray-300 border p-3 rounded-r-2xl  bg-white">
+                               
+                                <p class="font-regular">Hello ! pret pour la balade ?</p>
+                                <p class="text-gray-500 text-sm">14:12</p>
+                            </div>
+                        </div>
+
+
+                         <div class=" border-gray flex gap-1">
+                            <div class="text-white  border-gray-300 border p-3 rounded-tl-2xl  bg-blue-700">
+                                <p class="font-regular ">Toujours On se retrouve au parc</p>
+                                <p class="text-gray-300 text-sm">14:13</p>
+                            </div>
+                             <div class="w-8 h-8 rounded-full p-[3px]">
+                                <a href=""><img src="assets/img/profil.jpg"class="block w-full h-full object-cover rounded-full" alt=""></a>
+                            </div>
+
+                        </div>
+                        
+                       
+                        
+                    </div>
+                    <div class="rounded-full  w-2 h-2"></div>
+                </div>
+
+                
+
+
+
+             
+                
+               
+             
+                    
+                
+            </section>
+        </div>
+    </main>
+</body>
